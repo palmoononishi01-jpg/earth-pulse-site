@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "generator": "fetch-live.ts",
+  "updatedAt": "2026-11-24T14:38:17.035Z",
+  "feeds": {
+    "usgs_all_hour": {
+      "source": "usgs",
+      "file": "usgs_all_hour.geojson",
+      "ok": true,
+      "fetchedAt": "2026-11-24T14:38:17.666Z",
+      "attemptedAt": "2026-11-24T14:38:17.666Z",
+      "count": 8,
+      "bytes": 6023,
+      "sourceUpdatedAt": "2026-11-24T14:38:00.000Z",
+      "error": null,
+      "consecutiveFailures": 0,
+      "retryAfter": null
+    },
+    "usgs_all_day": {
+      "source": "usgs",
+      "file": "usgs_all_day.geojson",
+      "ok": true,
+      "fetchedAt": "2026-11-24T14:38:17.847Z",
+      "attemptedAt": "2026-11-24T14:38:17.847Z",
+      "count": 234,
+      "bytes": 167158,
+      "sourceUpdatedAt": "2026-11-24T14:37:30.000Z",
+      "error": null,
+      "consecutiveFailures": 0,
+      "retryAfter": null
+    },
+    "usgs_2.5_day": {
+      "source": "usgs",
+      "file": "usgs_2.5_day.geojson",
+      "ok": true,
+      "fetchedAt": "2026-11-24T14:38:18.004Z",
+      "attemptedAt": "2026-11-24T14:38:18.004Z",
+      "count": 44,
+      "bytes": 31556,
+      "sourceUpdatedAt": "2026-11-24T14:38:10.000Z",
+      "error": null,
+      "consecutiveFailures": 0,
+      "retryAfter": null
+    },
+    "usgs_2.5_week": {
+      "source": "usgs",
+      "file": "usgs_2.5_week.geojson",
+      "ok": true,
+      "fetchedAt": "2026-11-24T14:38:18.209Z",
+      "attemptedAt": "2026-11-24T14:38:18.209Z",
+      "count": 348,
+      "bytes": 248351,
+      "sourceUpdatedAt": "2026-11-24T14:37:30.000Z",
+      "error": null,
+      "consecutiveFailures": 0,
+      "retryAfter": null
+    },
+    "usgs_4.5_month": {
+      "source": "usgs",
+      "file": "usgs_4.5_month.geojson",
+      "ok": true,
+      "fetchedAt": "2026-11-24T14:38:18.436Z",
+      "attemptedAt": "2026-11-24T14:38:18.436Z",
+      "count": 549,
+      "bytes": 383509,
+      "sourceUpdatedAt": "2026-11-24T14:37:40.000Z",
+      "error": null,
+      "consecutiveFailures": 0,
+      "retryAfter": null
+    },
+    "usgs_significant_month": {
+      "source": "usgs",
+      "file": "usgs_significant_month.geojson",
+      "ok": true,
+      "fetchedAt": "2026-11-24T14:38:18.584Z",
+      "attemptedAt": "2026-11-24T14:38:18.584Z",
+      "count": 11,
+      "bytes": 8757,
+      "sourceUpdatedAt": "2026-11-24T14:37:26.000Z",
+      "error": null,
+      "consecutiveFailures": 0,
+      "retryAfter": null
+    },
+    "eonet_open_nonfire": {
+      "source": "eonet",
+      "file": "eonet_open_nonfire.json",
+      "ok": true,
+      "fetchedAt": "2026-11-24T14:38:22.066Z",
+      "attemptedAt": "2026-11-24T14:38:22.066Z",
+      "count": 69,
+      "bytes": 175837,
+      "sourceUpdatedAt": null,
+      "error": null,
+      "consecutiveFailures": 0,
+      "retryAfter": null
+    },
+    "eonet_wildfires_30d": {
+      "source": "eonet",
+      "file": "eonet_wildfires_30d.json",
+      "ok": true,
+      "fetchedAt": "2026-11-24T14:38:22.325Z",
+      "attemptedAt": "2026-11-24T14:38:22.325Z",
+      "count": 33,
+      "bytes": 22711,
+      "sourceUpdatedAt": null,
+      "error": null,
+      "consecutiveFailures": 0,
+      "retryAfter": null
+    }
+  }
+}

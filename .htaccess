@@ -1,0 +1,75 @@
+# EARTH PULSE .htaccess（npm run build が生成。直接編集せず scripts/generate/htaccess.ts を直す。docs/54）
+# すべて <IfModule> で囲んでいる。効かない指定があっても 500 にならない（Xserver での可否は第8分割で実機確認）
+
+# --- エラーページ・ディレクトリ一覧の禁止 ---
+ErrorDocument 404 /earth-pulse-site/404.html
+<IfModule mod_autoindex.c>
+  Options -Indexes
+</IfModule>
+
+# --- 公開しないファイル（ドットファイル・一時ファイル・server/ など） ---
+<IfModule mod_authz_core.c>
+  <FilesMatch "(^\.|\.tmp-|~$|\.(bak|orig|log)$)">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+  <IfModule mod_access_compat.c>
+    <FilesMatch "(^\.|\.tmp-|~$|\.(bak|orig|log)$)">
+      Order allow,deny
+      Deny from all
+    </FilesMatch>
+  </IfModule>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # HTTPS への転送（プロキシ越しの X-Forwarded-Proto も見る）
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  # www の有無は SITE_URL（palmoononishi01-jpg.github.io）に統一
+  RewriteCond %{HTTP_HOST} ^www\.palmoononishi01-jpg\.github\.io$ [NC]
+  RewriteRule ^ https://palmoononishi01-jpg.github.io%{REQUEST_URI} [L,R=301]
+  # server/ など配信しないディレクトリ
+  RewriteRule ^(server|node_modules|scripts|src)(/|$) - [F,L]
+  # キャッシュ区分（下の Header が環境変数で選ぶ）
+  RewriteRule ^(assets/[^/]+-[A-Za-z0-9_-]{8}\.[a-z0-9]+|data/v/.+)$ - [E=EP_IMMUTABLE:1]
+  # ハッシュの無い静的アセット（地表テクスチャ・OGP 画像・earth-still）は URL の ?v=<内容ハッシュ> つきだけ長期。
+  # 版なしの要求は短め（内容が変わったら版つきの URL が変わるので、古い版が残ることはない。M-02）
+  RewriteCond %{QUERY_STRING} (^|&)v=[0-9a-f]{8}$
+  RewriteRule ^assets/(textures/[^/]+\.webp|earth-still\.webp|og-[a-z]+-[a-z]+\.png)$ - [E=EP_IMMUTABLE:1]
+  RewriteCond %{QUERY_STRING} !(^|&)v=[0-9a-f]{8}$
+  RewriteRule ^assets/(textures/[^/]+\.webp|earth-still\.webp|og-[a-z]+-[a-z]+\.png)$ - [E=EP_ASSET:1]
+  RewriteRule ^data/(manifest\.json|live/.+)$ - [E=EP_SHORT:1]
+  RewriteRule (^|/)$|\.html$ - [E=EP_HTML:1]
+</IfModule>
+
+# --- キャッシュ（版ディレクトリとハッシュ付きアセットは長期・immutable。manifest と live は短期。HTML は短期） ---
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=31536000, immutable" env=EP_IMMUTABLE
+  Header set Cache-Control "public, max-age=60" env=EP_SHORT
+  Header set Cache-Control "public, max-age=300" env=EP_HTML
+  Header set Cache-Control "public, max-age=86400" env=EP_ASSET
+
+  # --- セキュリティヘッダー ---
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'sha256-0b+Q6cHJ10C8xxre8y0fWMKOvcy1vPki6q8J9KIB+UI='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' blob: data:; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'"
+</IfModule>
+
+# --- 圧縮 ---
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/xml application/javascript text/javascript application/json application/geo+json application/ld+json image/svg+xml
+</IfModule>
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/css text/plain text/xml application/xml application/javascript text/javascript application/json application/geo+json application/ld+json image/svg+xml
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType image/svg+xml .svg
+  AddType application/geo+json .geojson
+</IfModule>

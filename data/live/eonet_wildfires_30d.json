@@ -1,0 +1,1129 @@
+{
+	"title": "EONET Events",
+	"description": "Natural events from EONET.",
+	"link": "https://eonet.gsfc.nasa.gov/api/v3/events",
+	"events": [
+		{
+			"id": "EONET_26661",
+			"title": "Wildfire Little Ridge, Highland, Virginia",
+            "description": "12 Miles SW from Monterey, VA",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26661",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-VAVAF-260139"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 900.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-21T23:15:00Z",
+					"type": "Point", 
+							"coordinates": [ -79.791367, 38.313617 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26662",
+			"title": "Wildfire White Oak Flat, Alleghany, Virginia",
+            "description": "2 Miles NW from Clifton Forge, VA",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26662",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-VAVAF-260136"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 2237.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-20T13:16:00Z",
+					"type": "Point", 
+							"coordinates": [ -79.862117, 37.8422 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26568",
+			"title": "Wildfire Greene - Caney Creek Lane, Greene, Tennessee",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26568",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-TNTNS-261114"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 500.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-18T14:11:00Z",
+					"type": "Point", 
+							"coordinates": [ -82.7985, 36.36301667 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26569",
+			"title": "Prescribed Fire 2027 TXTMR HFR RX, Matagorda, Texas",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26569",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-TXHGR-000422"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 1016.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-18T09:44:00Z",
+					"type": "Point", 
+							"coordinates": [ -95.80795, 28.762433 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26571",
+			"title": "Prescribed Fire OAK Compartment 29 RX, Bibb, Alabama",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26571",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-ALALF-000534"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 713.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-18T09:18:00Z",
+					"type": "Point", 
+							"coordinates": [ -87.347136, 32.945935 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26572",
+			"title": "Prescribed Fire rx-Lapham Good Oak 2026, Waukesha, Wisconsin",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26572",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-WIWIS-RX3524"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 638.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-18T08:47:00Z",
+					"type": "Point", 
+							"coordinates": [ -88.3992015, 43.0403647 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26573",
+			"title": "Prescribed Fire STEELY MILL RX, El Dorado, California",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26573",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-CAENF-035548"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 1406.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-16T11:32:00Z",
+					"type": "Point", 
+							"coordinates": [ -120.50025, 38.619383 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26665",
+			"title": "Prescribed Fire RX D7 Second Skinny Landings, Mineral, Montana",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26665",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MTLNF-260581"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 542.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-16T09:41:00Z",
+					"type": "Point", 
+							"coordinates": [ -114.752017, 47.122717 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26575",
+			"title": "Prescribed Fire Elk/Clark Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26575",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001646"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 979.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-16T09:06:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.578139, 35.050444 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26465",
+			"title": "Wildfire Range 47, Forrest, Mississippi",
+            "description": "16 Miles SE from Hattiesburg, MS",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26465",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000723"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 2378.77,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-13T15:18:00Z",
+					"type": "Point", 
+							"coordinates": [ -89.159329, 31.099822 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26464",
+			"title": "Wildfire 201W, Perry, Mississippi",
+            "description": "7 Miles SW from New Augusta, MS",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26464",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000720"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 2700.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-13T13:31:00Z",
+					"type": "Point", 
+							"coordinates": [ -89.079783, 31.119783 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26469",
+			"title": "Prescribed Fire rx-Northern Scuppernong, Waukesha, Wisconsin",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26469",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-WIWIS-RX3504"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 1401.80,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-13T10:30:00Z",
+					"type": "Point", 
+							"coordinates": [ -88.4829256, 42.9241779 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26467",
+			"title": "Prescribed Fire 3R RX - KRUMM MP, Stevens, Washington",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26467",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-WACOF-002229"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 500.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-12T11:59:00Z",
+					"type": "Point", 
+							"coordinates": [ -117.533129, 48.402056 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26468",
+			"title": "Prescribed Fire Holly Springs 119-1 &amp; 84-2 RX, Lafayette, Mississippi",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26468",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000714"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 729.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-12T09:20:00Z",
+					"type": "Point", 
+							"coordinates": [ -89.421184, 34.49329 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26331",
+			"title": "Wildfire Red Hill, Perry, Mississippi",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26331",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000713"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 519.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-12T00:22:00Z",
+					"type": "Point", 
+							"coordinates": [ -89.063853, 31.130069 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26332",
+			"title": "Prescribed Fire Bienville CPT 29 Sub 2 RX, Scott, Mississippi",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26332",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000709"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 660.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-11T09:57:00Z",
+					"type": "Point", 
+							"coordinates": [ -89.5974, 32.425 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26576",
+			"title": "Prescribed Fire TSK Compartment 6 RX, Macon, Alabama",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26576",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-ALALF-000525"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 503.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-11T08:18:00Z",
+					"type": "Point", 
+							"coordinates": [ -85.653222, 32.446972 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26577",
+			"title": "Prescribed Fire Strawberry RX, Wasatch, Utah",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26577",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-UTUWF-200865"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 635.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-10T17:06:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.2668, 40.31 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26333",
+			"title": "Prescribed Fire Compartment 170 RX, Greene, Georgia",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26333",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-GACHF-260217"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 643.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-09T16:30:00Z",
+					"type": "Point", 
+							"coordinates": [ -83.259363, 33.747313 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26663",
+			"title": "Prescribed Fire 3R RX - ROCKY MP, Stevens, Washington",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26663",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-WACOF-002230"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 550.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-09T11:50:00Z",
+					"type": "Point", 
+							"coordinates": [ -117.618779, 48.387611 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26258",
+			"title": "Wildfire FOOT CREEK, Johnson, Wyoming",
+            "description": "10 Miles W from Bufffalo, WY",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26258",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-WYBHF-000401"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 683.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-05T16:11:00Z",
+					"type": "Point", 
+							"coordinates": [ -106.93255, 44.318717 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26260",
+			"title": "Prescribed Fire Cold Springs RX, Wasatch, Utah",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26260",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-UTUWF-200860"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 904.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-03T10:48:00Z",
+					"type": "Point", 
+							"coordinates": [ -110.943493, 40.511329 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26057",
+			"title": "Wildfire Wild River, Coos, New Hampshire",
+            "description": "5 Miles SW from Shelburne, NH",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26057",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-NHWMF-000182"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 982.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-02T07:58:00Z",
+					"type": "Point", 
+							"coordinates": [ -71.031283, 44.330583 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25984",
+			"title": "Prescribed Fire Dry Lake Hills Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25984",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001612"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 902.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-30T10:13:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.616667, 35.266667 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25986",
+			"title": "Prescribed Fire McCarty Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25986",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001609"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 832.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-29T12:16:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.262694, 34.513944 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25985",
+			"title": "Prescribed Fire Freidland-Chimney Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25985",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001608"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 1029.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-29T11:37:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.666667, 35.283333 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26056",
+			"title": "Prescribed Fire TON RX - BAILEY LOST HP, Okanogan, Washington",
+            "description": " ",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26056",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-WACOF-002153"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 740.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-29T11:08:00Z",
+					"type": "Point", 
+							"coordinates": [ -119.055205, 48.532726 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25827",
+			"title": "Wildfire South Tank Trail, Perry, Mississippi",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25827",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000680"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 1000.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-28T18:02:00Z",
+					"type": "Point", 
+							"coordinates": [ -89.097783, 31.085833 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26259",
+			"title": "Prescribed Fire 3R RX - DRUMMOND MP, Stevens, Washington",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26259",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-WACOF-002228"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 645.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-28T11:42:00Z",
+					"type": "Point", 
+							"coordinates": [ -117.533129, 48.402056 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25829",
+			"title": "Prescribed Fire Walker Hill 3 Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25829",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001563"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 784.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-28T11:22:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.835978, 35.259781 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25830",
+			"title": "Prescribed Fire Brie Slash Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25830",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001597"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 700.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-28T11:21:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.315915, 34.545833 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25828",
+			"title": "Prescribed Fire Newman 3 Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25828",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001600"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 756.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-28T10:09:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.639444, 35.017139 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26334",
+			"title": "Prescribed Fire REP RX - WALKER HP, Ferry, Washington",
+            "description": " ",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26334",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-WACOF-001045"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 540.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-26T11:39:00Z",
+					"type": "Point", 
+							"coordinates": [ -118.561685, 48.675381 ]
+							}
+
+						
+			]
+		}
+
+		]
+}

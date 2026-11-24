@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-24T01:19:38.569Z",
+  "datasetVersion": "20261124-1b6cfbb9",
+  "status": "ok",
+  "checksum": "1b6cfbb977354387af6a20aea61bf8b52fb1e5a203b0553644be3fe60ac01e46",
+  "files": [
+    {
+      "path": "v/20261124-1b6cfbb9/aggregates.json",
+      "sha256": "7f9a06468c20b5890a3d67f84043767a968f4f5ac27e703bbc20038e97176ea4",
+      "bytes": 5956
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/countries.json",
+      "sha256": "3fc3bf446569a38f668b9d38686c6ebeb6ba5185473b5ea6bafa1d3b4def4fa2",
+      "bytes": 146640
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/geo/countries-110m.topo.json",
+      "sha256": "48550c2a509346781d7db8be8470e687095044bcd9c955ff55117e9f91b4d83e",
+      "bytes": 119183
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/geo/countries-50m.topo.json",
+      "sha256": "239174414e72c73cc0945e6d91a82024f0477a9bd7f794c2b754943ae5149b39",
+      "bytes": 769029
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/co2_fossil_per_capita.aggregates.json",
+      "sha256": "5c7fa3e9543ba6f6faa4f9e37fa3be0fcd97989caf2f0c3eefe1fdf9c505b79b",
+      "bytes": 859
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/co2_fossil_per_capita.json",
+      "sha256": "11efa4f45aa8367d3df9f50d33db688d1842a34996152e1a9c9cfafec7329aeb",
+      "bytes": 95337
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/co2_fossil_total.aggregates.json",
+      "sha256": "a1f2629b6ac6049219e0fd75a1f830399f6a685b0b783071c2895661e1c1d7d6",
+      "bytes": 862
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/co2_fossil_total.json",
+      "sha256": "a31a40d5d16169ce01db90777eeab253b320236a5877a50d29231cc2ec90a62c",
+      "bytes": 112539
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/elec_demand_per_capita.aggregates.json",
+      "sha256": "a5a0628eea41e94d35df14ab6392c99d6bed4961a391a3ed49a15a80a275e47a",
+      "bytes": 549
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/elec_demand_per_capita.json",
+      "sha256": "f588d27e8fbfc6e9eb354bf90900196cb08012bf900ec956098ce1233cddda8d",
+      "bytes": 49515
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/elec_demand.aggregates.json",
+      "sha256": "0cd7cc4ad4f2e7a01f948c2607877bda521233ed5322e92989e655394b4a6be2",
+      "bytes": 556
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/elec_demand.json",
+      "sha256": "5db397f3486c6f93215eaec6b57727c1d7d571c0c31709a53a31093f1a24c2a3",
+      "bytes": 55826
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/elec_renewables_share.aggregates.json",
+      "sha256": "72a3b6f6cdd299474888ed7b1dbbcc604b619f551d305e34af5ed560c188a123",
+      "bytes": 563
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/elec_renewables_share.json",
+      "sha256": "1a118db6204affd76c55406f91b7dd28088eb693f57ecaab43f2626b9e28fc3b",
+      "bytes": 51321
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/forest_share.aggregates.json",
+      "sha256": "54be44d9f5691735eb05686ab07485d31dca66bf0d885a1620a63aef7465c1b4",
+      "bytes": 15999
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/forest_share.json",
+      "sha256": "0c5db21c97601a86043318ae4ad518fd9b6c6d0154d1a9055e8adf7eebe07cbc",
+      "bytes": 44332
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_growth.aggregates.json",
+      "sha256": "584babb780f2785de70a6612d83f3aac5b4888476b5b2a90b50bb1ca87161b3d",
+      "bytes": 29757
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_growth.json",
+      "sha256": "836bd36023d5b7f130543bd20d3d444076ac98b9b02890f26316424636c8ff57",
+      "bytes": 84663
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_per_capita.aggregates.json",
+      "sha256": "d07b8c9f8c6bd57e63c3c8b910c74c8908945acfde6ec8ee1fa48ce25a8578d7",
+      "bytes": 35056
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_per_capita.json",
+      "sha256": "5cc4e5cc5d1da6ae96c1868413ce82e6bc0e7859f9b9560fe6a500aeeeb26130",
+      "bytes": 106700
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_total.aggregates.json",
+      "sha256": "8dfc6cf82af760807d4f8ebcefa31bd81637b909e6da9e961b5fd961dbefd784",
+      "bytes": 52826
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_total.json",
+      "sha256": "fc33e4d850e4b215de8dd72e3b1129ba45fa6eaf54cd3d95476aac0f70874cc1",
+      "bytes": 150082
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/land_area.aggregates.json",
+      "sha256": "4eacdbb709560708bfa450ab0dc15567910bfc85fc88b954f619740a7e23adae",
+      "bytes": 40605
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/land_area.json",
+      "sha256": "25f876dc6cd30af9c7152d5a227b5f1986da45b95f3293eeb245cbd38f7de5d8",
+      "bytes": 87070
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/pop_density.aggregates.json",
+      "sha256": "b6181b76ee7413f8ae55ea839332edbe68cabb13eb64b8b9c43c4073d36243c2",
+      "bytes": 29425
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/pop_density.json",
+      "sha256": "56e59641a2c39faa922207fb62b3feefb32424f0c39641fec1b8af00f97b6821",
+      "bytes": 88386
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/pop_growth.aggregates.json",
+      "sha256": "7fd507f476592c02b329814b84743b5c743b9ca7712aa75a595860debd6a05f4",
+      "bytes": 29600
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/pop_growth.json",
+      "sha256": "c704af4b44a1cd0d0840200c5a908f0f6548c68b04339ae4a5e095c626eb4651",
+      "bytes": 86717
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/pop_total.aggregates.json",
+      "sha256": "06cb51ade236810fa4747bee811b4810099558adc176d860eaf9844e921d434f",
+      "bytes": 43588
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicator/pop_total.json",
+      "sha256": "b2062e5067b75451e031b3974f7fbafda992197e644d52493a9b50ffb13d7527",
+      "bytes": 115507
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/indicators.json",
+      "sha256": "f7b9c6aba05bc7e1e5da8561722e69f6e33f8dadfc71fff2af23286922de40cf",
+      "bytes": 19164
+    },
+    {
+      "path": "v/20261124-1b6cfbb9/sources.json",
+      "sha256": "43b61d46c3318014df49e56a8c8a7bf70e0a7719166a06390626583acdc33460",
+      "bytes": 3171
+    }
+  ],
+  "datasets": [
+    {
+      "id": "countries",
+      "kind": "countries",
+      "path": "v/20261124-1b6cfbb9/countries.json",
+      "sourceId": null,
+      "sourceUpdatedAt": null,
+      "period": null,
+      "records": 239
+    },
+    {
+      "id": "aggregates",
+      "kind": "aggregates",
+      "path": "v/20261124-1b6cfbb9/aggregates.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": null,
+      "period": null,
+      "records": 79
+    },
+    {
+      "id": "indicators",
+      "kind": "indicators",
+      "path": "v/20261124-1b6cfbb9/indicators.json",
+      "sourceId": null,
+      "sourceUpdatedAt": null,
+      "period": null,
+      "records": 13
+    },
+    {
+      "id": "sources",
+      "kind": "sources",
+      "path": "v/20261124-1b6cfbb9/sources.json",
+      "sourceId": null,
+      "sourceUpdatedAt": null,
+      "period": null,
+      "records": 6
+    },
+    {
+      "id": "geo-110m",
+      "kind": "geography",
+      "path": "v/20261124-1b6cfbb9/geo/countries-110m.topo.json",
+      "sourceId": "natural-earth",
+      "sourceUpdatedAt": "v5.1.2",
+      "period": null,
+      "records": 177
+    },
+    {
+      "id": "geo-50m",
+      "kind": "geography",
+      "path": "v/20261124-1b6cfbb9/geo/countries-50m.topo.json",
+      "sourceId": "natural-earth",
+      "sourceUpdatedAt": "v5.1.2",
+      "period": null,
+      "records": 242
+    },
+    {
+      "id": "pop_total",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/pop_total.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 14292
+    },
+    {
+      "id": "pop_growth",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/pop_growth.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1961,
+        "end": 2025
+      },
+      "records": 14073
+    },
+    {
+      "id": "gdp_total",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_total.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 11764
+    },
+    {
+      "id": "gdp_per_capita",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_per_capita.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 11764
+    },
+    {
+      "id": "gdp_growth",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_growth.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1961,
+        "end": 2025
+      },
+      "records": 11408
+    },
+    {
+      "id": "land_area",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/land_area.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1961,
+        "end": 2024
+      },
+      "records": 12563
+    },
+    {
+      "id": "pop_density",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/pop_density.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1961,
+        "end": 2024
+      },
+      "records": 12534
+    },
+    {
+      "id": "elec_renewables_share",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/elec_renewables_share.json",
+      "sourceId": "ember-electricity",
+      "sourceUpdatedAt": null,
+      "period": {
+        "start": 1985,
+        "end": 2025
+      },
+      "records": 5816
+    },
+    {
+      "id": "elec_demand",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/elec_demand.json",
+      "sourceId": "ember-electricity",
+      "sourceUpdatedAt": null,
+      "period": {
+        "start": 1985,
+        "end": 2025
+      },
+      "records": 5821
+    },
+    {
+      "id": "elec_demand_per_capita",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/elec_demand_per_capita.json",
+      "sourceId": "ember-electricity",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1985,
+        "end": 2025
+      },
+      "records": 5682
+    },
+    {
+      "id": "forest_share",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/forest_share.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1990,
+        "end": 2024
+      },
+      "records": 7270
+    },
+    {
+      "id": "co2_fossil_total",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/co2_fossil_total.json",
+      "sourceId": "gcp-fossil-co2",
+      "sourceUpdatedAt": "2026-10-26",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 13566
+    },
+    {
+      "id": "co2_fossil_per_capita",
+      "kind": "indicator-data",
+      "path": "v/20261124-1b6cfbb9/indicator/co2_fossil_per_capita.json",
+      "sourceId": "gcp-fossil-co2",
+      "sourceUpdatedAt": "2026-10-26",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 13527
+    },
+    {
+      "id": "pop_total.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/pop_total.aggregates.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 3168
+    },
+    {
+      "id": "pop_growth.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/pop_growth.aggregates.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1961,
+        "end": 2025
+      },
+      "records": 3120
+    },
+    {
+      "id": "gdp_total.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_total.aggregates.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 3047
+    },
+    {
+      "id": "gdp_per_capita.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_per_capita.aggregates.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 3047
+    },
+    {
+      "id": "gdp_growth.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/gdp_growth.aggregates.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1961,
+        "end": 2025
+      },
+      "records": 2980
+    },
+    {
+      "id": "land_area.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/land_area.aggregates.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1961,
+        "end": 2024
+      },
+      "records": 3024
+    },
+    {
+      "id": "pop_density.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/pop_density.aggregates.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1961,
+        "end": 2024
+      },
+      "records": 3024
+    },
+    {
+      "id": "elec_renewables_share.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/elec_renewables_share.aggregates.json",
+      "sourceId": "ember-electricity",
+      "sourceUpdatedAt": null,
+      "period": {
+        "start": 1985,
+        "end": 2025
+      },
+      "records": 26
+    },
+    {
+      "id": "elec_demand.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/elec_demand.aggregates.json",
+      "sourceId": "ember-electricity",
+      "sourceUpdatedAt": null,
+      "period": {
+        "start": 1985,
+        "end": 2025
+      },
+      "records": 26
+    },
+    {
+      "id": "elec_demand_per_capita.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/elec_demand_per_capita.aggregates.json",
+      "sourceId": "ember-electricity",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1985,
+        "end": 2025
+      },
+      "records": 26
+    },
+    {
+      "id": "forest_share.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/forest_share.aggregates.json",
+      "sourceId": "worldbank-wdi",
+      "sourceUpdatedAt": "2026-11-11",
+      "period": {
+        "start": 1990,
+        "end": 2024
+      },
+      "records": 1612
+    },
+    {
+      "id": "co2_fossil_total.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/co2_fossil_total.aggregates.json",
+      "sourceId": "gcp-fossil-co2",
+      "sourceUpdatedAt": "2026-10-26",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 66
+    },
+    {
+      "id": "co2_fossil_per_capita.aggregates",
+      "kind": "aggregate-data",
+      "path": "v/20261124-1b6cfbb9/indicator/co2_fossil_per_capita.aggregates.json",
+      "sourceId": "gcp-fossil-co2",
+      "sourceUpdatedAt": "2026-10-26",
+      "period": {
+        "start": 1960,
+        "end": 2025
+      },
+      "records": 66
+    }
+  ],
+  "sourceMetadata": {
+    "ember-electricity": {
+      "fetchedAt": "2026-11-23T07:57:38.895Z",
+      "sourceUpdatedAt": null
+    },
+    "gcp-fossil-co2": {
+      "fetchedAt": "2026-11-23T07:57:34.859Z",
+      "sourceUpdatedAt": "2026-10-26"
+    },
+    "natural-earth": {
+      "fetchedAt": "2026-11-23T06:20:52.552Z",
+      "sourceUpdatedAt": "v5.1.2"
+    },
+    "worldbank-wdi": {
+      "fetchedAt": "2026-11-23T06:20:58.730Z",
+      "sourceUpdatedAt": "2026-11-11"
+    }
+  }
+}
